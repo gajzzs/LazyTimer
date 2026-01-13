@@ -2,7 +2,7 @@ import SwiftUI
 
 struct PomodoroView: View {
     @ObservedObject var timerManager: TimerManager
-    @Binding var showSettings: Bool
+
     var isOverlay: Bool = false
     
     @State private var isEditingTime = false
@@ -116,17 +116,7 @@ struct PomodoroView: View {
             }
             .buttonStyle(.plain)
             
-            if !isOverlay {
-                Button(action: { showSettings.toggle() }) {
-                    Image(systemName: "gearshape.fill")
-                        .font(.system(size: 24))
-                        .frame(width: 56, height: 56)
-                        .background(Color.white.opacity(0.2))
-                        .foregroundColor(.white)
-                        .clipShape(Circle())
-                }
-                .buttonStyle(.plain)
-            }
+
         }
     }
     

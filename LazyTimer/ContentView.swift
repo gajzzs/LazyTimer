@@ -18,7 +18,7 @@ struct ContentView: View {
             }
             .padding(32)
         }
-        .frame(minWidth: 480, minHeight: 560)
+        .frame(minWidth: 444, minHeight: 666)
         .onReceive(clockTimer) { _ in
             currentTime = Date()
         }
@@ -142,7 +142,7 @@ struct ContentView: View {
     private var timerContent: some View {
         switch timerManager.mode {
         case .pomodoro:
-            PomodoroView(timerManager: timerManager, showSettings: .constant(false))
+            PomodoroView(timerManager: timerManager)
         case .stopwatch:
             StopwatchView(timerManager: timerManager)
         case .clock:

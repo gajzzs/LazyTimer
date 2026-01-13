@@ -12,7 +12,7 @@ struct LazyTimerApp: App {
                 .environmentObject(timerManager)
         }
         .windowStyle(.hiddenTitleBar)
-        .defaultSize(width: 480, height: 560)
+        .defaultSize(width: 444, height: 666)
         .commands {
             CommandGroup(after: .appInfo) {
                 Button("Show Overlay") {
