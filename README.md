@@ -22,6 +22,15 @@ LazyTimer is strictly just a timer. Just you and your work.
 - **Offline Forever**: Doesn't need the internet.
 - **Zero Tracking**: What you work on is your business.
 
+## Requirements & Build
+- **macOS 15.2+** (Sequoia) required. built for the future.
+- **Xcode 16+** needed to build from source.
+
+### How to Run
+1. Clone the repo: `git clone https://github.com/gajzzs/LazyTimer.git`
+2. Open `LazyTimer.xcodeproj` in Xcode.
+3. Hit **Cmd+R** to build and run.
+
 ## Coming Soon
 Things I'm tinkering with:
 - **Soundscapes**: Lofi beats or white noise to help you lock in.
