@@ -14,9 +14,16 @@ LazyTimer is strictly just a timer. Just you and your work.
 - **Floating**: A tiny timer that stays on top of your windows.
 - **Overlay**: Go full-screen without blocking the view of your work.
 
+
 <p align="center">
   <img src="assets/menu.png" alt="LazyTimer Menu" width="200">
 </p>
+
+### Customization Features
+- **Visuals**: Supports dynamic mesh gradients and custom background images.
+- **Notifications**: Configurable completion actions including system beep, text-to-speech, or custom audio files.
+- **Session Labels**: Customizable labels for work and break sessions.
+- **Subtitles**: Option to display custom text under the timer with adjustable font settings.
 
 ### Privacy First
 - **Offline Forever**: Doesn't need the internet.
